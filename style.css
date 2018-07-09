@@ -1,0 +1,33 @@
+/*style input box*/
+#search-box {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 3px solid #696;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+}
+/*when user clicks the input box to type in*/
+#search-box:focus {
+  background-color: #F0FFF0;
+}
+
+/*style table it self*/
+table, tr {
+  border: 3px solid #90EE90;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+tr:nth-child(even) {
+  background-color: #F0FFF0;
+}
+
+tr:hover {
+  background-color: #90EE90;
+  color: #fff;
+}
