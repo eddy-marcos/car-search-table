@@ -1,12 +1,14 @@
 /*style input box*/
 #search-box {
-  width: 100%;
+  width: 95%;
   padding: 20px;
   margin-bottom: 20px;
   border: 3px solid #696;
+  border-radius: 10px;
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   color: #000;
+  outline: none;
 }
 /*when user clicks the input box to type in*/
 #search-box:focus {
